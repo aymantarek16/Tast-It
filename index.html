@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tast it">
+    <meta name="keywords" content="#cooking #sheef">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taste.it</title>
+    <!--Fav Icon-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!--Fontawesome Cdn-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Bootstarp 4 Framework-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+         <!-- Cdn Wow Animate For Css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css"
+   integrity="sha512-gFn7XRm5v3GlgOwAQ80SXDT8pyg6uaV9JbW2OkNx5Im2jR8zx2X/3DbHymcZnUraU+klZjRJqNfNkFN7SyR3fg=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css File -->
+    <link rel="stylesheet" href="Css/main.css">
+
+</head>
+
+<body>
+    <!-- SrollUp -->
+    <a class="scrollup" href="#">
+        <i class="fal fa-chevron-up"></i>
+    </a>
+    <!-- Nav Bar -->
+    <header class="head">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand " href="#"> <span class="spanone">Taste.</span><span
+                        class="spantwo">it</span></a>
+                <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="text-white menu">Menu</span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active ">
+                            <a class="nav-link sr-only1 " href="#">HOME </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="chef">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="our">CHEF</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="menuS">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="happy">RESERVATION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" id="recent">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" id="contact">CONTANT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Section 2 -->
+    <section class="slider" id="slider">
+        <div id="main-slider" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators  justify-content-center">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item  carousel_1 active">
+                    <div class="overlay1"></div>
+                    <div class="carousel-caption ">
+                        <h5>TASTE.IT RESTAURANT</h5>
+                        <p>Cooking Since</p>
+                        <h6>1958</h6>
+
+                    </div>
+                </div>
+                <div class="carousel-item  carousel_2">
+                    <div class="overlay2"></div>
+                    <div class="carousel-caption ">
+                        <h5>TASTE.IT RESTAURANT</h5>
+                        <p>Best Quality</p>
+                        <h6>FOOD</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container_flued">
+            <div class="phone">
+                <div class="item1">
+                    <h2>Phone no : <span class="span1">+001234567</span> or email us: <span
+                            class="span2">emailsample@email.com</span></h2>
+                </div>
+
+                <div class="item2 ">
+                    <h2>Mon - Fri / 9:00-21:00, Sat - Sun / 10:00-20:00</h2>
+                    <ol class="icon">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-dribbble"></i></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section3 -->
+    <section class="chef">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-sm-4 p-4 p-md-5 d-flex align-items-center justify-content-center bg-primary">
+                    <form action="#" class="appointment-form">
+                        <h3 class="mb-3  text-uppercase">Book your Table</h3>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="name" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="input-wrap">
+
+                                        <input type="text" class="form-control book_date" placeholder="Check-In">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="input-wrap">
+
+                                        <input type="text" class="form-control book_time" placeholder="Time">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <div class="form-field">
+                                        <div class="select-wrap">
+
+                                            <select name="" id="" class="form-control">
+                                                <option value="" class="" style="background-color: #000;">Guest</option>
+                                                <option value="" class="text-white"
+                                                    style="background-color: rgba(0, 0, 0, 0.76);">1</option>
+                                                <option value="" class="text-white"
+                                                    style="background-color: rgba(0, 0, 0, 0.76);">2</option>
+                                                <option value="" class="text-white"
+                                                    style="background-color: rgba(0, 0, 0, 0.76);">3</option>
+                                                <option value="" class="text-white"
+                                                    style="background-color: rgba(0, 0, 0, 0.76);">4</option>
+                                                <option value="" class="text-white"
+                                                    style="background-color: rgba(0, 0, 0, 0.76);">5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="submit" value="Book Your Table Now" class="  submit">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-sm-8  py-5 about">
+                    <div class="row pb-5 pb-md-0">
+                        <div class="col-md-12 col-lg-7">
+                            <div class="heading-section mt-5 mb-4">
+                                <div class="pl-lg-3 ml-md-5">
+                                    <span class="subheading">About</span>
+                                    <h2 class="mb-4">Welcome to Taste.it</h2>
+                                </div>
+                            </div>
+                            <div class="pl-lg-3 ml-md-5 par">
+                                <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came
+                                    from it would have been rewritten a thousand times and everything that was left from
+                                    its origin would be the word "and" and the Little Blind Text should turn around and
+                                    return to its own, safe country. A small river named Duden flows by their place and
+                                    supplies it with the necessary regelialia. It is a paradisematic country, in which
+                                    roasted parts of sentences fly into your mouth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="now">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center text">
+                    <span>Now Booking</span>
+                    <h2>Private Dinners &amp; Happy Hours</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="menuS">
+        <div class="container">
+            <div class="text text-center mb-5">
+                <h2>Specialties</h2>
+                <p>Our Menu</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 mt-5  breakfast wow bounceInUp">
+                    <h2 class="text-center  break">Breakfast</h2>
+                    <span class="icon1"><i class="fas fa-sandwich"></i></span>
+                    <span class="icon2"><i class="far fa-utensils-alt"></i></span>
+                    <div class="item">
+                        <img src="img/xbreakfast-1.jpg.pagespeed.ic.gqikzjjE5l.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$26</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/xbreakfast-2.jpg.pagespeed.ic.e2TljVvmuq.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$37</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item" style="border: none;">
+                        <img src="img/xbreakfast-3.jpg.pagespeed.ic.cBzD6Aw8L0.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$22</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-5  breakfast wow bounceInUp">
+                    <h2 class="text-center  break">LUNCH</h2>
+                    <span class="icon1"><i class="fas fa-sandwich"></i></span>
+                    <span class="icon2"><i class="far fa-utensils-alt"></i></span>
+                    <div class="item">
+                        <img src="img/xlunch-1.jpg.pagespeed.ic.sNRHBBF3--.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$30</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/xlunch-2.jpg.pagespeed.ic.UkZxX44ezw.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$33</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item" style="border: none;">
+                        <img src="img/xlunch-3.jpg.pagespeed.ic.gKf96CPu17.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$35</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-5 breakfast wow  bounceInUp">
+                    <h2 class="text-center  break">DINNER</h2>
+                    <span class="icon1"><i class="fas fa-sandwich"></i></span>
+                    <span class="icon2"><i class="far fa-utensils-alt"></i></span>
+                    <div class="item">
+                        <img src="img/xdinner-1.jpg.pagespeed.ic.mReVAn4H37.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$20</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/xdinner-2.jpg.pagespeed.ic.Zhcy2e7KUf.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$21</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item" style="border: none;">
+                        <img src="img/xdinner-3.jpg.pagespeed.ic.5sRLZ4Qsh-.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$26</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-5 breakfast wow  bounceInUp">
+                    <h2 class="text-center  break">DESSERTS</h2>
+                    <span class="icon1"><i class="fas fa-sandwich"></i></span>
+                    <span class="icon2"><i class="far fa-utensils-alt"></i></span>
+                    <div class="item">
+                        <img src="img/xdessert-1.jpg.pagespeed.ic.6RBgL-5Wt_.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$30</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/xdessert-2.jpg.pagespeed.ic.BXQ6C9WlQC.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$36</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item" style="border: none;">
+                        <img src="img/xdessert-3.jpg.pagespeed.ic.m1Tfp6nkSI.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$40</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-5 breakfast wow  bounceInUp">
+                    <h2 class="text-center  break">WINE CARD</h2>
+                    <span class="icon1"><i class="fas fa-sandwich"></i></span>
+                    <span class="icon2"><i class="far fa-utensils-alt"></i></span>
+                    <div class="item">
+                        <img src="img/xwine-1.jpg.pagespeed.ic.FGmClkByJK.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$15</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/xwine-2.jpg.pagespeed.ic.S4kockp-FG.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$17</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item" style="border: none;">
+                        <img src="img/xwine-3.jpg.pagespeed.ic.nAZWSLEoMr.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$13</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-5 breakfast wow  bounceInUp">
+                    <h2 class="text-center  break">DRINKS & TEA</h2>
+                    <span class="icon1"><i class="fas fa-sandwich"></i></span>
+                    <span class="icon2"><i class="far fa-utensils-alt"></i></span>
+                    <div class="item">
+                        <img src="img/xdrink-1.jpg.pagespeed.ic.DbB-WtH3Ap.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$5</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/xdrink-2.jpg.pagespeed.ic.XIjMFQ2_Yx.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$8</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+
+                    <div class="item" style="border: none;">
+                        <img src="img/xdrink-3.jpg.pagespeed.ic.I_yJ4zdQ_N.webp" alt="">
+                        <h2>Beef Roast Source</h2>
+                        <span>$4</span>
+                        <p>Meat, Potatoes, Rice, <br> Tomatoe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6 -->
+    <section class="happy">
+        <div class="overlay"></div>
+        <div class="item">
+            <h2>Testimony</h2>
+            <h3>Happy Customer</h3>
+        </div>
+
+        <div id="slides" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators ">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3"></li>
+                <li data-target="#slides" data-slide-to="4"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <p class="text-center text-white mb-4">Far far away, behind the world mountains, far from the
+                        countries
+                        <br> Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <img src="img/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp" class="d-block" alt="...">
+                    <h2 class="text-center text-white">John Gustavo</h2>
+                    <span class="text-center text-white d-block">Customer</span>
+
+                </div>
+
+                <div class="carousel-item">
+                    <p class="text-center text-white mb-4">Far far away, behind the world mountains, far from the
+                        countries
+                        <br> Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <img src="img/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp" class="d-block" alt="...">
+                    <h2 class="text-center text-white">John Gustavo</h2>
+                    <span class="text-center text-white d-block">Customer</span>
+
+                </div>
+
+                <div class="carousel-item ">
+                    <p class="text-center text-white mb-4">Far far away, behind the world mountains, far from the
+                        countries
+                        <br> Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <img src="img/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp" class="d-block" alt="...">
+                    <h2 class="text-center text-white">John Gustavo</h2>
+                    <span class="text-center text-white d-block">Customer</span>
+                </div>
+
+                <div class="carousel-item ">
+                    <p class="text-center text-white mb-4">Far far away, behind the world mountains, far from the
+                        countries
+                        <br> Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <img src="img/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp" class="d-block" alt="...">
+                    <h2 class="text-center text-white">John Gustavo</h2>
+                    <span class="text-center text-white d-block">Customer</span>
+                </div>
+
+                <div class="carousel-item ">
+                    <p class="text-center text-white mb-4">Far far away, behind the world mountains, far from the
+                        countries
+                        <br> Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <img src="img/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp" class="d-block" alt="...">
+                    <h2 class="text-center text-white">John Gustavo</h2>
+                    <span class="text-center text-white d-block">Customer</span>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Section 7 -->
+    <section class="our">
+        <div class="container">
+            <div class="text text-center">
+                <h2>Chef</h2>
+                <h3>Our Master Chef</h3>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="img/chef1_1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2>John Gustavo</h2>
+                            <h3>CEO, Co Founder</h3>
+                            <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                        </div>
+                    </div>
+                    <span><i class="fas fa-bookmark"></i></span>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="img/chef1_2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2>Michelle Fraulen</h2>
+                            <h3>Head Chef</h3>
+                            <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                        </div>
+                    </div>
+                    <span><i class="fas fa-bookmark"></i></span>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="img/chef1_3.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2>Alfred Smith</h2>
+                            <h3>Chef Cook</h3>
+                            <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                        </div>
+                    </div>
+                    <span><i class="fas fa-bookmark"></i></span>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src="img/chef1_4.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2>Antonio Santibanez</h2>
+                            <h3>Chef Cook</h3>
+                            <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                        </div>
+                    </div>
+                    <span><i class="fas fa-bookmark"></i></span>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8 -->
+    <section class="perfect">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3">
+                    <div class="image1"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 ">
+                    <div class="image2"></div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="text">
+                        <h2>This is our secrets</h2>
+                        <h3>Perfect Ingredients</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                            Semantics, a large language ocean.</p>
+                        <a href="" class="btn">Leare More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9 -->
+
+    <section class="recent">
+        <div class="container">
+            <div class="text text-center">
+                <h2>Blog</h2>
+                <h3>Recent Blog</h3>
+            </div>
+            <div class="row">
+
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="img/recent1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <span class="span1">AUGUST 3, 2020</span>
+                            <span class="span1">ADMIN</span>
+                            <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                            <div class="card_footer">
+                                <a href="#" class="btn ">Read More</a>
+                                <span class="span2"><i class="fas fa-comment"></i>3 </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="img/recent2.webp" class="card-img-top image2" alt="...">
+                        <div class="card-body">
+                            <span class="span1">AUGUST 3, 2020</span>
+                            <span class="span1">ADMIN</span>
+                            <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                            <div class="card_footer">
+                                <a href="#" class="btn ">Read More</a>
+                                <span class="span2"><i class="fas fa-comment"></i>5 </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+
+                <div class="col-lg-4 col-md-6 m-auto">
+                    <div class="card">
+                        <img src="img/recent3.webp" class="card-img-top image3" alt="...">
+                        <div class="card-body">
+                            <span class="span1">AUGUST 3, 2020</span>
+                            <span class="span1">ADMIN</span>
+                            <p>Even the all-powerful Pointing has no control about the blind texts</p>
+                            <div class="card_footer">
+                                <a href="#" class="btn ">Read More</a>
+                                <span class="span2"><i class="fas fa-comment"></i>8 </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 10 -->
+    <section class="we">
+        <div class="container">
+            <h2>We Make Delicious & Nutritious Food</h2>
+            <a href="#" class="btn text-center">Book A Table Now</a>
+        </div>
+    </section>
+
+    <!-- Section 11 "Footer" -->
+    <footer class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="test">
+                        <h2>tast.it</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live in Bookmarksgrove</p>
+                        <ul class="wow bounceInUp">
+                            <li><a href="#"> <i class="fab fa-twitter" style="margin-right: 2px;"></i></a></li>
+                            <li><a href="#"> <i class="fab fa-facebook-f" style="margin-left: 2px;"></i></a></li>
+                            <li><a href="#"> <i class="fab fa-instagram" style="margin-left: -1px;"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="open">
+                        <h2>open hours</h2>
+                        <div class="row">
+                            <div class="col">
+                                <ul class="text-white">
+                                    <li>Monday</li>
+                                    <li>Tuesday</li>
+                                    <li>Wednesday</li>
+                                    <li>Thursday</li>
+                                    <li>Friday</li>
+                                    <li>Saturday</li>
+                                    <li>Sunday</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="text-muted">
+                                    <li>9:00 - 24:00</li>
+                                    <li>9:00 - 24:00</li>
+                                    <li>9:00 - 24:00</li>
+                                    <li>9:00 - 24:00</li>
+                                    <li>9:00 - 02:00</li>
+                                    <li>9:00 - 02:00</li>
+                                    <li>Closed</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="insta">
+                        <h2>INSTAGRAM</h2>
+                        <div class="image">
+                            <img src="img/footer1.webp" alt="">
+                            <img src="img/footer2.webp" alt="">
+                            <img src="img/footer3.webp" alt="">
+                            <img src="img/footer4.webp" alt="">
+                            <img src="img/footer5.webp" alt="">
+                            <img src="img/footer6.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="news">
+                        <h2>NEWSLETTER</h2>
+                        <P>Far far away, behind the word mountains, far from the countries.</P>
+                        <input type="text" class="form-control input" placeholder="Enter email address ">
+                        <a href="#" class="btn">Subscribe</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </footer>
+    <!--  Section End -->
+    <div class="copy">
+        <p>Copyright ©2021 All rights reserved | This template is made with <i class="fas fa-heart"></i> by <span>Ayman
+                Tarek</span> </p>
+    </div>
+
+
+
+
+
+
+
+    <!-- BootStrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Animate for js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- Jquery File -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!-- Js File -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
