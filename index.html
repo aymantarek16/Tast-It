@@ -18,10 +18,10 @@
     <!--Bootstarp 4 Framework-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-         <!-- Cdn Wow Animate For Css -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css"
-   integrity="sha512-gFn7XRm5v3GlgOwAQ80SXDT8pyg6uaV9JbW2OkNx5Im2jR8zx2X/3DbHymcZnUraU+klZjRJqNfNkFN7SyR3fg=="
-   crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--===============  Wow Css  ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css"
+        integrity="sha512-gFn7XRm5v3GlgOwAQ80SXDT8pyg6uaV9JbW2OkNx5Im2jR8zx2X/3DbHymcZnUraU+klZjRJqNfNkFN7SyR3fg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Css File -->
     <link rel="stylesheet" href="Css/main.css">
@@ -86,9 +86,9 @@
                 <div class="carousel-item  carousel_1 active">
                     <div class="overlay1"></div>
                     <div class="carousel-caption ">
-                        <h5>TASTE.IT RESTAURANT</h5>
-                        <p>Cooking Since</p>
-                        <h6>1958</h6>
+                        <h5 class="carousel__h5">TASTE.IT RESTAURANT</h5>
+                        <p class="carousel__p">Cooking Since</p>
+                        <h6 class="carousel__h6">1958</h6>
 
                     </div>
                 </div>
@@ -129,7 +129,7 @@
     <section class="chef">
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-sm-4 p-4 p-md-5 d-flex align-items-center justify-content-center bg-primary">
+                <div class="col-sm-4 p-4 p-md-5 d-flex align-items-center justify-content-center bg-primary formN">
                     <form action="#" class="appointment-form">
                         <h3 class="mb-3  text-uppercase">Book your Table</h3>
                         <div class="row">
@@ -195,7 +195,7 @@
                     </form>
 
                 </div>
-                <div class="col-sm-8  py-5 about">
+                <div class="col-sm-8  py-5 about cheef">
                     <div class="row pb-5 pb-md-0">
                         <div class="col-md-12 col-lg-7">
                             <div class="heading-section mt-5 mb-4">
@@ -224,7 +224,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center text">
+                <div class="col-md-12 text-center text now__text">
                     <span>Now Booking</span>
                     <h2>Private Dinners &amp; Happy Hours</h2>
                 </div>
@@ -552,11 +552,11 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-3">
-                    <div class="image1"></div>
+                    <div class="image1 img1"></div>
                 </div>
 
                 <div class="col-lg-3 col-md-3 ">
-                    <div class="image2"></div>
+                    <div class="image2 img2"></div>
 
                 </div>
 
@@ -573,9 +573,7 @@
             </div>
         </div>
     </section>
-
     <!-- Section 9 -->
-
     <section class="recent">
         <div class="container">
             <div class="text text-center">
@@ -649,8 +647,8 @@
     <!-- Section 10 -->
     <section class="we">
         <div class="container">
-            <h2>We Make Delicious & Nutritious Food</h2>
-            <a href="#" class="btn text-center">Book A Table Now</a>
+            <h2 class="we__h2">We Make Delicious & Nutritious Food</h2>
+            <a href="#" class="btn text-center we__link">Book A Table Now</a>
         </div>
     </section>
 
@@ -731,6 +729,7 @@
 
         </div>
     </footer>
+
     <!--  Section End -->
     <div class="copy">
         <p>Copyright ©2021 All rights reserved | This template is made with <i class="fas fa-heart"></i> by <span>Ayman
@@ -753,17 +752,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>
-    <script>
-        new WOW().init();
-    </script>
-
-    <!-- Jquery File -->
-    <script src="js/jquery-3.6.0.min.js"></script>
 
     <!--=============== SCROLL REVEAL ===============-->
     <script src="js/scrollreveal.min.js"></script>
+    <!--=============== Wow js  ===============-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--=============== Jquery  ===============-->
+    <script src="js/jquery-3.6.0.min.js"></script>
 
-    <!-- Js File -->
+    <!--=============== js ===============-->
     <script src="js/main.js"></script>
 </body>
 
