@@ -108,6 +108,7 @@
 }
 
 @media (max-width: 768px) {
+  
   .head {
     width: 100%;
     top: 0;
@@ -130,6 +131,7 @@
 }
 
 @media (max-width: 600px) {
+  
   .head {
     width: 100%;
     top: 0;
@@ -138,6 +140,11 @@
     padding: 10px 0 0 0;
     top: 0;
     transform: translateY(0);
+    
+    .navbar-toggler{
+      position: relative;
+      left: -3.5rem;
+    }
   }
 }
 
