@@ -77,7 +77,6 @@ li {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   z-index: 11;
-  display: none;
 }
 
 .scrollup i {
@@ -113,7 +112,7 @@ li {
             box-shadow: 0 0 10px gray;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    display: none !important;
+    display: none;
   }
   .scrollup i {
     display: -webkit-box;
@@ -186,6 +185,10 @@ li {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
+  .head .navbar-toggler {
+    position: relative;
+    left: -3.5rem;
+  }
   .head .collapse .navbar-nav .nav-item .nav-link {
     color: #fff;
     padding: 0 20px;
@@ -219,8 +222,10 @@ li {
 .head2 {
   background-color: #fff;
   width: 100%;
+  right: 0;
   border-radius: 0;
   top: -75px;
+  position: fixed;
   -webkit-transform: translateY(75px);
           transform: translateY(75px);
   -webkit-transition: -webkit-transform 1s;

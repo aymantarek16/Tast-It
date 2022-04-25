@@ -15,7 +15,6 @@
   cursor: pointer;
   transition: all 0.3s ease;
   z-index: 11;
-  display: none;
 
   i {
     display: flex;
@@ -45,7 +44,7 @@
     background-color: #fff;
     box-shadow: 0 0 10px gray;
     transition: all 0.3s ease;
-    display: none !important;
+    display: none ;
 
     i {
       display: flex;
@@ -117,7 +116,10 @@
     padding: 15px 0 0 0;
     top: 0;
     transform: translateY(0);
-
+    .navbar-toggler {
+      position: relative;
+      left: -3.5rem;
+    }
     .collapse .navbar-nav .nav-item .nav-link {
       color: #fff;
       padding: 0 20px;
@@ -153,8 +155,10 @@
 .head2 {
   background-color: #fff;
   width: 100%;
+  right: 0;
   border-radius: 0;
   top: -75px;
+  position: fixed;
   transform: translateY(75px);
   transition: transform 1s;
 
