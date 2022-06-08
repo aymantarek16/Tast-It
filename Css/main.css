@@ -156,7 +156,7 @@ li {
   font-weight: 800;
 }
 
-.head .collapse .navbar-nav .active .sr-only1 {
+.head .collapse .navbar-nav .active {
   color: #e52b34 !important;
   font-weight: 800 !important;
 }
@@ -259,11 +259,6 @@ li {
 
 .head2 .collapse .navbar-nav .nav-item .nav-link:hover {
   color: #e52b34 !important;
-}
-
-.head2 .collapse .navbar-nav .active .sr-only1 {
-  color: #e52b34 !important;
-  font-weight: 800 !important;
 }
 
 /* End Jqery  */
