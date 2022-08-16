@@ -45,7 +45,7 @@
     background-color: #fff;
     box-shadow: 0 0 10px gray;
     transition: all 0.3s ease;
-    display: none ;
+    display: none;
 
     i {
       display: flex;
@@ -108,7 +108,6 @@
 }
 
 @media (max-width: 768px) {
-
   .head {
     width: 100%;
     top: 0;
@@ -134,7 +133,6 @@
 }
 
 @media (max-width: 600px) {
-
   .head {
     width: 100%;
     top: 0;
@@ -1049,7 +1047,6 @@
   }
 
   .card {
-
     .image2,
     .image3 {
       height: 237px;
